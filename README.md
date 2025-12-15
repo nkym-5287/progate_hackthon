@@ -1,25 +1,25 @@
-## AWS Amplify Next.js (App Router) Starter Template
+# Progate Hackathon Project
 
-This repository provides a starter template for creating applications using Next.js (App Router) and AWS Amplify, emphasizing easy setup for authentication, API, and database capabilities.
+## 概要
+Progate主催ハッカソンにて作成した、契約書をアップロードし
+AIによるリスク分析を行うWebアプリのフロントエンドです。
 
-## Overview
+AWS Amplify の Next.js テンプレートをベースに、
+フロントエンド実装と API 連携の学習・検証を目的として開発しました。
 
-This template equips you with a foundational Next.js application integrated with AWS Amplify, streamlined for scalability and performance. It is ideal for developers looking to jumpstart their project with pre-configured AWS services like Cognito, AppSync, and DynamoDB.
+## 使用技術
+- Next.js（App Router）
+- TypeScript
+- AWS Amplify
+- Amazon S3（ファイルアップロード想定）
+- AWS Lambda（バックエンド処理想定）
+- Google Gemini API（文章解析）
 
-## Features
+## 担当したこと
+- Next.js を用いた画面構成・UI設計
+- ファイルアップロード画面の実装
+- API 呼び出しを想定したフロントエンド構成の作成
+- AWS Amplify を用いたフロントエンド環境構築
 
-- **Authentication**: Setup with Amazon Cognito for secure user authentication.
-- **API**: Ready-to-use GraphQL endpoint with AWS AppSync.
-- **Database**: Real-time database powered by Amazon DynamoDB.
-
-## Deploying to AWS
-
-For detailed instructions on deploying your application, refer to the [deployment section](https://docs.amplify.aws/nextjs/start/quickstart/nextjs-app-router-client-components/#deploy-a-fullstack-app-to-aws) of our documentation.
-
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.`
+## 補足
+ハッカソン終了後、AWS利用期限の関係で現在は実行環境が停止しています
